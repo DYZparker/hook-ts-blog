@@ -27,7 +27,7 @@ const Detail: React.FC = () => {
 		window.scrollTo(0,0)
 		if(artcleId) {
 			getArticleApi(artcleId).then((res) => {
-				const result = res.data
+				const result = res.data.data.article
 				setArticle(result)
 			})
 		}

@@ -1,8 +1,9 @@
 import axios from 'axios'
 // import { getToken } from './auth'
+const requestBaseURL = process.env.NODE_ENV === "development" ? '' : '/pro-api'
 
 const request = axios.create({
-  // beseURL: 'http://localhost:9000',
+  baseURL: requestBaseURL,
   timeout: 5000
 })
 

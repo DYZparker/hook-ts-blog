@@ -12,7 +12,7 @@ const Tags: React.FC = () => {
 
   React.useEffect(() => {
     getSideInfoApi().then((res) => {
-			const result = res.data
+			const result = res.data.data
 			store.dispatch!({
 				type: 'infoSide',
 				tagList: result.tagList,

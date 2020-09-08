@@ -36,7 +36,7 @@ export const TagsWrapper = styled.div`
   padding: .5rem;
   overflow: hidden;
   >span{
-    font-size: .9rem;
+    font-size: .7rem;
     margin: .3rem .3rem;
   }
 `

@@ -20,9 +20,16 @@ const AboutMe: React.FC = () => {
       <Title level={4}>建站应用</Title>
       <Paragraph>
         <ul>
-          <li>前台：react-hooks、typeScript、antd</li>
-          <li>中台：vue、element</li>
-          <li>后台：koa2、mangoDB</li>
+          <li>
+            <p>前台：react-hooks、typeScript、antd</p>
+            <p>代码Github地址：<a href="https://github.com/DYZparker/hook-ts-blog">https://github.com/DYZparker/hook-ts-blog</a></p>
+          </li>
+          <li>
+            <p>中台：vue、element</p>
+            <p>代码Github地址：<a href="https://github.com/DYZparker/vue-blog">https://github.com/DYZparker/vue-blog</a></p></li>
+          <li>
+            <p>后台：koa2、mangoDB</p>
+            <p>代码Github地址：<a href="https://github.com/DYZparker/koa-server">https://github.com/DYZparker/koa-server</a></p></li>
         </ul>
       </Paragraph>
 

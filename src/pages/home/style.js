@@ -2,10 +2,8 @@ import styled from 'styled-components'
 
 export const TopicWrapper = styled.div`
   overflow: hidden;
-  height: 17.5rem;
-  line-height: 17.5rem;
   text-align: center;
-  border-radius: .5rem;
+  border-radius: .3rem;
   box-sizing: border-box;
   img {
     width: 100%;

@@ -16,11 +16,11 @@ const Home: React.FC = () => {
   React.useEffect(() => {
     if(articleList && articleList.length === 0) {
       getCommonInfoApi().then((res) => {
-        const result = res.data
+        const result = res.data.data
         store.dispatch!({
           type: 'infoHome',
           topicList: result.topicList,
-          total: result.pages.total,
+          total: result.total,
           articleList: result.articleList
         })
       })

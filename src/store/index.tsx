@@ -88,27 +88,27 @@ const menuList: Array<IMenu> = [
     "path": "/tagList",
     "children": [
       {
-          "title": "html",
+          "title": "H5",
           "path": "/tagList/html"
       },
       {
-          "title": "javascript",
+          "title": "Javascript",
           "path": "/tagList/javascript"
       },
       {
-          "title": "node",
-          "path": "/tagList/node"
-      },
-      {
-          "title": "vue",
-          "path": "/tagList/vue"
-      },
-      {
-          "title": "react",
+          "title": "React",
           "path": "/tagList/react"
       },
       {
-          "title": "other",
+          "title": "Vue",
+          "path": "/tagList/vue"
+      },
+      {
+          "title": "Node",
+          "path": "/tagList/node"
+      },
+      {
+          "title": "Other",
           "path": "/tagList/other"
       }
     ],
